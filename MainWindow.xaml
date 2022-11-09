@@ -1,0 +1,71 @@
+﻿<Window x:Class="Wpf_isrpozhitkova_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_isrpozhitkova_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="879.213" Width="800">
+    <Grid>
+        <ListBox HorizontalAlignment="Left" Name="listBox1" Height="229" Margin="20,33,0,0" VerticalAlignment="Top" Width="259">
+            <ListBoxItem Background="LightCoral" Foreground="Red" FontWeight="Bold" FontFamily="Verdana" FontSize="14">
+                <CheckBox Name="CoffieCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\VS\Wpf_isrpozhitkova_10\images\kofe.png" Height="30"></Image>
+                        <TextBlock Text="Coffie"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="HotPink" Foreground="Blue" FontWeight="Bold" FontFamily="Verdana" FontSize="14">
+                <CheckBox Name="TeaCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\VS\Wpf_isrpozhitkova_10\images\tea.png" Height="30"></Image>
+                        <TextBlock Text="Tea"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="Yellow" Foreground="OrangeRed" FontWeight="Bold" FontFamily="Verdana" FontSize="14">
+                <CheckBox Name="Milk">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\VS\Wpf_isrpozhitkova_10\images\milk.png" Height="30"></Image>
+                        <TextBlock Text="Milk"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="ForestGreen"  Foreground="Blue" FontWeight="Bold" FontFamily="Verdana" FontSize="14">
+                <CheckBox Name="icedteaCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\VS\Wpf_isrpozhitkova_10\images\Scotsman-gourmet-cube-brown-glass.png" Height="30"></Image>
+                        <TextBlock Text="Iced tea"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="CornflowerBlue"  Foreground="DeepPink" FontWeight="Bold" FontFamily="Verdana" FontSize="14">
+                <CheckBox Name="OrangejuicecheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\VS\Wpf_isrpozhitkova_10\images\orange-juice.png" Height="30"></Image>
+                        <TextBlock Text="Orange juice"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="deepPink"  Foreground="LawnGreen" FontWeight="Bold" FontFamily="Verdana" FontSize="14">
+                <CheckBox Name="MangoshakeCheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\VS\Wpf_isrpozhitkova_10\images\juice-shake.png" Height="30"></Image>
+                        <TextBlock Text="Mango shake"></TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+        </ListBox>
+        <TextBox Height="33" HorizontalAlignment="Left" Margin="20,280,0,0" Name="textBox1" VerticalAlignment="Top" Width="259"/>
+        <Button Height="33"  Margin="311,280,0,0" Name="button1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="113" Click="button1_Click">Add Item</Button>
+        <Button Content="Sort" x:Name="Sort" HorizontalAlignment="Left" Margin="20,337,0,0" VerticalAlignment="Top" Width="79" Height="23" Click="Sort_Click"/>
+        <Button HorizontalAlignment="Left" Margin="122,337,0,0" Name="DeleteBitton" VerticalAlignment="Top" Width="78" Height="23" Click="DeleteBitton_Click">Delet Item</Button>
+      
+     
+            
+        
+
+
+    </Grid>
+</Window>
